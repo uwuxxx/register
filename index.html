@@ -1,8 +1,8 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>OGFN</title>
+  <title>Aura</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -10,10 +10,11 @@
 
   <div class="home-container">
 
-    <h1 class="title">aura</h1>
+    <h1 class="title glow">Aura</h1>
 
     <p class="intro">
-      Welcometo Project Aura where u can play old fortnite all again, with seasons going up to 12.41 and 6.21 and even other season to people who donate!
+      Welcome to Project Aura relive old Fortnite with seasons like 12.41, 6.21,
+      and exclusive content for supporters!
     </p>
 
     <div class="buttons">
@@ -23,15 +24,31 @@
     <h2 class="team-title">Meet Our Team</h2>
 
     <div class="team">
+
       <div class="member">
-        <img src="https://images-ext-1.discordapp.net/external/2cM0-zGmjBIDcjyZl0Mn0479vaqLAfUNd03JHXNDVoM/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1479616540423749823/790c0be3a79f2b9b95c363287dad16e5.png" alt="mirex raper">
-        <p>Main developer for Aura and Founder/p>
+        <img src="https://cdn.discordapp.com/avatars/1479616540423749823/790c0be3a79f2b9b95c363287dad16e5.png?size=1024" alt="Founder">
+        <p>Main Developer & Founder</p>
       </div>
 
       <div class="member">
-        <img src="https://images-ext-1.discordapp.net/external/lB7lKie21ghnH5ED2PCT9wjaWeX2yPqVkmUBakfGU84/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/921516952801923133/3578384ae5f3e78fb237ffdd2f4add60.png" alt="mod raper">
-        <p>koopa main moderator</p>
+        <img src="https://cdn.discordapp.com/avatars/921516952801923133/3578384ae5f3e78fb237ffdd2f4add60.png?size=1024" alt="Moderator">
+        <p>Koopa - Main Moderator</p>
       </div>
+
+    </div>
+
+  </div>
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" onclick="toggleTheme()"></button>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      body.classList.toggle("dark-theme");
+      body.classList.toggle("light-theme");
+    }
+  </script>
 
 </body>
 </html>
